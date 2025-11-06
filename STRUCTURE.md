@@ -51,7 +51,7 @@ invoicepay/
 
 ### Protected APIs
 
-- **`src/controllers/user.controller.ts` ** - Is more like a play test for something not serious but still worth testing
+- **`src/controllers/user.controller.ts`** - Is more like a play test for something not serious but still worth testing
 - **`src/controllers/api.controller.ts`** - Mock e-commerce endpoints
 - **`src/routes/api.routes.ts`** - Protected route definitions
 
