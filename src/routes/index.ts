@@ -2,6 +2,7 @@ import { Router } from 'express';
 import apiRoutes from './api.routes';
 import x402Routes from './x402.routes';
 import config from '../config';
+import userRoutes from './user.routes';
 
 const router: Router = Router();
 
@@ -18,5 +19,6 @@ router.get('/health', (req, res) => {
 // Mount route modules
 router.use(config.apiPrefix, apiRoutes);
 router.use(config.x402Prefix, x402Routes);
+router.use(config.userPrefix, userRoutes);
 
 export default router;

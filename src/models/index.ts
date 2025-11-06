@@ -50,3 +50,9 @@ export interface PaymentRequiredResponse {
   invoice: Invoice;
   message: string;
 }
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+}
